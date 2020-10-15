@@ -13,8 +13,8 @@ int main()
 	cout << a + b << endl; // 7
 	cout << a * b << endl; // 10
 	cout << a / b << endl; // 2
-	int remainder = a % b; // 
-	cout << remainder << endl; // 1	
+	int rem = a % b; // 
+	cout << rem << endl; // 1	
 	cout << endl; // Принтира нов ред
 
 	// ++ и -- като префиксен и постфиксен оператор 
