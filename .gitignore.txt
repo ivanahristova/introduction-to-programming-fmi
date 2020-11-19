@@ -1,0 +1,7 @@
+Debug
+*.vcxproj.*
+*.sln
+v16
+*.vcxproj
+*.synctex
+*.aux
