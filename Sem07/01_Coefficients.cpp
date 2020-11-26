@@ -7,7 +7,7 @@ void inputArray(int arr[], int size)
 		cin >> arr[i];	
 }
 
-void multiplyPolinoms(int res[], int size, int arr1[], int size1, int arr2[], int size2)
+void multiplyPolynoms(int res[], int size, int arr1[], int size1, int arr2[], int size2)
 {
 	for (int i = 0; i <= size1; i++)
 		for (int j = 0; j <= size2; j++)
@@ -32,6 +32,6 @@ int main()
 	cin >> m;
 	inputArray(Q, m);
 
-	multiplyPolinoms(RESULT, n + m, P, n, Q, m);
+	multiplyPolynoms(RESULT, n + m, P, n, Q, m);
 	printArray(RESULT, n + m);
 }
