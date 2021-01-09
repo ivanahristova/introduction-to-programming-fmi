@@ -60,6 +60,7 @@ int main()
 	cin.getline(str, 5);
 
 	cout << contains(arr, 5, str);
+	delete[] str;
 
 	for (int i = 0; i < 5; i++)
 		delete[] arr[i];
