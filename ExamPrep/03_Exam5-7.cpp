@@ -50,7 +50,7 @@ void f6_rec(int n, int beg, int end, int& sum)
 	f6(n, beg + 1, end + 2, sum);
 }
 
-bool f7(int arr[], int size)
+bool f7(double arr[], int size)
 {
 	for (int i = 2; i < size; ++i)
 		if (!((arr[i - 2] >= arr[i - 1] && arr[i - 1] <= arr[i]) || (arr[i - 2] <= arr[i - 1] && arr[i - 1] >= arr[i])))
@@ -76,7 +76,7 @@ int main()
 
 	// Задача 7 -------------------------------------------
 	const int SIZE = 16;
-	int arr[SIZE] = {1, 4, 2, 19, 6, 7, 5, 22, 10, 30, 2, 34, 12, 15, 11, 16};
+	double arr[SIZE] = {1, 4, 2, 19, 6, 7, 5, 22, 10, 30, 2, 34, 12, 15, 11, 16};
 	cout << f7(arr, SIZE);
 
 }
